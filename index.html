@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RuPopular Trivia</title>
+	<link rel="stylesheet" href="style.css"/> 
+</head>
+<body> 
+
+
+
+
+
+
+
+<div class='container' id="on-load">
+	<div class="header">
+		<img src="images/logo.png" />
+	</div>
+	<div class="play" id="play">
+		<h1>RuPaul-pular Trivia</h1>
+		<div type="button" class="button">Play!</div>
+	</div>
+<img class="rupaul-image" src='images/rupaul.png' />	
+</div>
+
+
+
+
+
+
+<div class="container" id="choose-a-name">
+	<div class="canHeader">
+		<h1>Choose a Drag Name</h1>
+		<p>There are two types of drag names: funny punny names and pageant names. Check them out below, then choose your name!</p>
+		<input type="text" id="drag-name" /><input type="submit" id="submit" value="name yo'self">
+	</div>
+	
+	<div class="example-container">
+		<div class="name-container" id="punny-example">
+			<h2>Funny Punny Names</h2>
+			<p>One type of drag name is the funny or punny name.  Queens will choose a name that really stands out and catches peoples attention. Often the queen will choose a witty pun while others will choose something outlandish and memorable.</p>
+			<img src="images/kimchi-icon.png" />
+			<img src="images/courtney-icon.png" />
+			<img src="images/sharon-icon.png" />
+			<img src="images/alaska-icon.png" />
+			<img src="images/penny-icon.png" />
+			<img src="images/bob-icon.png" />
+		</div>
+		<div class="name-container" id="pageant-example">
+			<h2>Pageant Names</h2>
+			<p>Some queens become famous by participating in beauty pageants. They are usually 'fishy' meaning they can pass as a woman.  They may join a family and will include the family name in their drag name or choose a name that beckons old Hollywood glamor.</p>
+			<img src="images/tyra-icon.png" />
+			<img src="images/alyssa-icon.png" />
+			<img src="images/laganja-icon.png" />
+			<img src="images/shangela-icon.png" />
+			<img src="images/stacey-icon.png" />
+			<img src="images/mystique-icon.png" />
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="container" id="choose-a-queen">
+	<div class="canHeader">
+		<h1>Choose a Drag Mother, darling!</h1>
+		<p>Wow, Jizzin Yofayz, that's a great drag name.  Now choose a mother to help you on your journey.</p>
+	</div>
+	<div class="mother-container">
+		<ul>
+			<li>
+				<img class="choose" id="first" src="images/alaska.png" /><br /><p>Alaska Thunderfuck 5000</p>
+			</li>
+			<li>
+				<img class="choose" id="first" src="images/bob.png" /><br /><p>Bob the Drag Queen</p>
+			</li>
+			<li>
+				<img class="choose" id="first" src="images/alyssa.png" /><br /><p>Alyssa Edwards</p>
+			</li>
+			<li>
+				<img class="choose" id="first" src="images/courtney.png" /><br /><p>Courtney Act</p>
+			</li>
+			<li>
+				<img class="choose" id="first" src="images/shangela.png" /><br /><p>Shangela Laquifa Wadley</p>
+			</li>
+		</ul>	
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container" id="difficulty">
+	<div class="canHeader">
+		<h1>Choose a difficulty level</h1>
+	</div>
+	<div class="play" id="cad">
+		<div type="button" class="button" id="easy">Easy</div>
+		<div type="button" class="button" id="medium">Medium</div>
+		<div type="button" class="button" id="hard">Hard</div>
+	</div>
+	<img class="rupaul-image" src='images/alaska.png' />
+</div>
+
+
+
+
+
+
+<div class="container" id="game-app">
+	<div class="header">
+		<img src="images/logo.png" />
+	</div>
+	<img class="rupaul-image" src='images/alyssa.png' />
+	
+
+
+	<div class="canHeader" id="score-container">
+		<img src="images/correct.png" />
+		<img src="images/spacer.png" />
+		<img src="images/wrong.png" />
+		<img src="images/wrong.png" />
+		<img src="images/wrong.png" />
+		
+		<p id="counter">1 of 5</p>
+	</div>
+	
+
+
+
+
+	<div class="canHeader" id="answers">
+		<h1>Question 1</h1>
+		<h2>This is a question from the selection.This is a question from the selection.This is a question from the selection.This is a question from the selection.This is a question from the selection.This is a question from the selection.This is a question from the selection.</h2>
+		<div class="button" id="answer">Answer!</div>
+
+		<ul class="mc">
+			<li>
+    			<input type="radio" id="1-option" name="selector">
+    			<label for="1-option">Courtney Act</label>
+    
+    			<div class="check"><div class="inside"></div></div>
+  			</li>
+			<li>
+    			<input type="radio" id="2-option" name="selector">
+    			<label for="2-option">Bob the Drag Queen</label>
+    
+    			<div class="check"><div class="inside"></div></div>
+  			</li>
+  			<li>
+    			<input type="radio" id="3-option" name="selector">
+    			<label for="3-option">Alyssa Edwards</label>
+    
+    			<div class="check"><div class="inside"></div></div>
+  			</li>
+  			<li>
+    			<input type="radio" id="4-option" name="selector">
+    			<label for="4-option">Adore Delano</label>
+    
+    			<div class="check"><div class="inside"></div></div>
+  			</li>
+
+		</ul>
+
+
+	</div>
+
+</div>
+	
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
