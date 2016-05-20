@@ -9,17 +9,17 @@
 
 
 
-
+<div class="container">
 
 
 
 <div class='container' id="on-load">
 	<div class="header">
-		<img src="images/logo.png" />
+		<img id="logo-pic" src="images/logo.png" />
 	</div>
 	<div class="play" id="play">
 		<h1>RuPaul-pular Trivia</h1>
-		<div type="button" class="button">Play!</div>
+		<div type="button" class="button" id="play-button">Play!</div>
 	</div>
 <img class="rupaul-image" src='images/rupaul.png' />	
 </div>
@@ -73,24 +73,24 @@
 <div class="container" id="choose-a-queen">
 	<div class="canHeader">
 		<h1>Choose a Drag Mother, darling!</h1>
-		<p>Wow, Jizzin Yofayz, that's a great drag name.  Now choose a mother to help you on your journey.</p>
+		<p id='caq-text'></p>
 	</div>
 	<div class="mother-container">
 		<ul>
 			<li>
-				<img class="choose" id="first" src="images/alaska.png" /><br /><p>Alaska Thunderfuck 5000</p>
+				<img class="choose" id="first-choice" src="images/alaska.png" /><br /><p>Alaska Thunderfuck 5000</p>
 			</li>
 			<li>
-				<img class="choose" id="first" src="images/bob.png" /><br /><p>Bob the Drag Queen</p>
+				<img class="choose" id="second-choice" src="images/bob.png" /><br /><p>Bob the Drag Queen</p>
 			</li>
 			<li>
-				<img class="choose" id="first" src="images/alyssa.png" /><br /><p>Alyssa Edwards</p>
+				<img class="choose" id="third-choice" src="images/alyssa.png" /><br /><p>Alyssa Edwards</p>
 			</li>
 			<li>
-				<img class="choose" id="first" src="images/courtney.png" /><br /><p>Courtney Act</p>
+				<img class="choose" id="fourth-choice" src="images/courtney.png" /><br /><p>Courtney Act</p>
 			</li>
 			<li>
-				<img class="choose" id="first" src="images/shangela.png" /><br /><p>Shangela Laquifa Wadley</p>
+				<img class="choose" id="fifth-choice" src="images/shangela.png" /><br /><p>Shangela Laquifa Wadley</p>
 			</li>
 		</ul>	
 	</div>
@@ -111,7 +111,6 @@
 		<div type="button" class="button" id="medium">Medium</div>
 		<div type="button" class="button" id="hard">Hard</div>
 	</div>
-	<img class="rupaul-image" src='images/alaska.png' />
 </div>
 
 
@@ -123,18 +122,14 @@
 	<div class="header">
 		<img src="images/logo.png" />
 	</div>
-	<img class="rupaul-image" src='images/alyssa.png' />
+
 	
 
 
 	<div class="canHeader" id="score-container">
-		<img src="images/correct.png" />
-		<img src="images/spacer.png" />
-		<img src="images/wrong.png" />
-		<img src="images/wrong.png" />
-		<img src="images/wrong.png" />
+		<div class="right-wrong"></div>
 		
-		<p id="counter">1 of 5</p>
+	<p id="counter"></p>
 	</div>
 	
 
@@ -142,35 +137,18 @@
 
 
 	<div class="canHeader" id="answers">
-		<h1>Question 1</h1>
-		<h2>This is a question from the selection.This is a question from the selection.This is a question from the selection.This is a question from the selection.This is a question from the selection.This is a question from the selection.This is a question from the selection.</h2>
+		
+		<div class="question-text"></div>
 		<div class="button" id="answer">Answer!</div>
 
-		<ul class="mc">
-			<li>
+		<ul class="mc" id="mc">
+			<!--li>
     			<input type="radio" id="1-option" name="selector">
-    			<label for="1-option">Courtney Act</label>
+    			<label for="1-option" id="0-option-label"></label>
     
     			<div class="check"><div class="inside"></div></div>
-  			</li>
-			<li>
-    			<input type="radio" id="2-option" name="selector">
-    			<label for="2-option">Bob the Drag Queen</label>
-    
-    			<div class="check"><div class="inside"></div></div>
-  			</li>
-  			<li>
-    			<input type="radio" id="3-option" name="selector">
-    			<label for="3-option">Alyssa Edwards</label>
-    
-    			<div class="check"><div class="inside"></div></div>
-  			</li>
-  			<li>
-    			<input type="radio" id="4-option" name="selector">
-    			<label for="4-option">Adore Delano</label>
-    
-    			<div class="check"><div class="inside"></div></div>
-  			</li>
+  			</li-->
+			
 
 		</ul>
 
@@ -179,6 +157,8 @@
 
 </div>
 	
+
+</div>
 
 
 
