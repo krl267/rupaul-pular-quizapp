@@ -46,6 +46,7 @@ h1 {
 
 .button {
 	background-color:#3b0833;
+	cursor: pointer;
 	width:100px;
 	text-align: center;
 	border-radius: 5px;
@@ -209,7 +210,7 @@ h2 {
 	position:relative;
 }
 
-#score-container > img {
+.right-wrong > img {
 	width:50px;
 	margin-left:50px;
 	margin-top:10px;
@@ -323,4 +324,8 @@ input[type=radio]:checked ~ label{
 	margin-top:200px;
 	margin-right:25px;
 	cursor:pointer;
+}
+
+#play-again {
+	
 }
